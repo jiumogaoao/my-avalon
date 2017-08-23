@@ -1,0 +1,14 @@
+alert($('div')[0]);
+
+var img = require('../../source/img/avatar.jpg');
+console.log(img);
+
+var vm = avalon.define({
+  $id: "test",
+  name: "司徒正美",
+  array: [11, 22, 33]
+});
+
+setTimeout(function () {
+  vm.array.set(0, 444);
+}, 3000);

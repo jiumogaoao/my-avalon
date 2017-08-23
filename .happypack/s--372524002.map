@@ -1,0 +1,1 @@
+{"version":3,"sources":["app\\source\\js\\main.js"],"names":["require"],"mappings":"AAAA;;;AAGAA,QAAQ,UAAR;AACAA,QAAQ,mBAAR","file":"main.js","sourceRoot":"D:/ie-webpack-start","sourcesContent":["/**\r\n * 基础补丁包\r\n * */\r\nrequire('es5-shim');\r\nrequire('es5-shim/es5-sham');"]}

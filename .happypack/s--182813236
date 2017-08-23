@@ -1,0 +1,18 @@
+Parse Error: Line 1: Illegal export declaration
+Error: Parse Error: Line 1: Illegal export declaration
+    at throwError (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:2823:21)
+    at throwErrorTolerant (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:2835:24)
+    at parseSourceElement (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:6432:17)
+    at parseProgramElement (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:6491:16)
+    at parseProgramElements (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:6523:29)
+    at parseProgram (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:6536:16)
+    at Object.parse (D:\ie-webpack-start\node_modules\esprima-fb\esprima.js:7713:23)
+    at getAstForSource (D:\ie-webpack-start\node_modules\jstransform\src\jstransform.js:244:21)
+    at Object.transform (D:\ie-webpack-start\node_modules\jstransform\src\jstransform.js:267:11)
+    at transform (D:\ie-webpack-start\node_modules\es3ify\index.js:108:24)
+    at Object.module.exports (D:\ie-webpack-start\node_modules\es3ify-loader\index.js:5:10)
+    at applySyncOrAsync (D:\ie-webpack-start\node_modules\happypack\lib\applyLoaders.js:341:21)
+    at apply (D:\ie-webpack-start\node_modules\happypack\lib\applyLoaders.js:268:5)
+    at D:\ie-webpack-start\node_modules\happypack\lib\applyLoaders.js:131:7
+    at applyPitchLoader (D:\ie-webpack-start\node_modules\happypack\lib\applyLoaders.js:184:14)
+    at applyPitchLoader (D:\ie-webpack-start\node_modules\happypack\lib\applyLoaders.js:192:14)
