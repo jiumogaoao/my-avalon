@@ -1,0 +1,18 @@
+Parse Error: Line 6: Unexpected token }
+Error: Parse Error: Line 6: Unexpected token }
+    at throwError (D:\my-avalon\node_modules\esprima-fb\esprima.js:2818:21)
+    at throwUnexpected (D:\my-avalon\node_modules\esprima-fb\esprima.js:2880:9)
+    at parsePrimaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3592:9)
+    at parseLeftHandSideExpressionAllowCall (D:\my-avalon\node_modules\esprima-fb\esprima.js:3682:61)
+    at parsePostfixExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3722:20)
+    at parseUnaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3789:16)
+    at parseBinaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3879:16)
+    at parseConditionalExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3939:16)
+    at parseAssignmentExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:4192:16)
+    at parseObjectProperty (D:\my-avalon\node_modules\esprima-fb\esprima.js:3193:25)
+    at parseObjectInitialiser (D:\my-avalon\node_modules\esprima-fb\esprima.js:3396:28)
+    at parsePrimaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3570:20)
+    at parseLeftHandSideExpressionAllowCall (D:\my-avalon\node_modules\esprima-fb\esprima.js:3682:61)
+    at parsePostfixExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3722:20)
+    at parseUnaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3789:16)
+    at parseBinaryExpression (D:\my-avalon\node_modules\esprima-fb\esprima.js:3879:16)

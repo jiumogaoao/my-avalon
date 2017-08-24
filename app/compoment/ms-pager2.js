@@ -1,0 +1,6 @@
+var Module=avalon.component('ms-pager2', {
+    template: '<div><div>1{{@name}}</div><wbr ms-widget="{is:\'ms-pager\',name:@name}"/><wbr ms-widget="{is:\'ms-pager\',name:@name}"/></div>',
+    defaults: {name: '他'}
+});
+
+module.exports = Module;

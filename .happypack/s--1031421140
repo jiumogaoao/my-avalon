@@ -1,0 +1,45 @@
+
+var img = require('../../source/img/avatar.jpg');
+require('mmRouter');
+require('../../compoment/ms-pager');
+require('../../compoment/ms-pager2');
+require('../../compoment/ms-pager3');
+var vm = avalon.define({
+  $id: "test",
+  name: "某人",
+  name2: "某人2",
+  name3: "某人3",
+  page: '<div>1</div>',
+  array: [11, 22, 33],
+  c: function c() {
+    vm.name = "dddd";
+  }
+});
+function routeAdd(url, page) {
+  var vmH = require('../../control/' + page + '/' + page + '.html');
+  var vmC = require('../../control/' + page + '/' + page + '.js');
+  avalon.router.add(url, function (a) {
+    vmC.params = this.params;
+    vm.page = vmH;
+  });
+}
+avalon.router.add("/aaa", function (a) {
+  var vmH = require('../../control/aaa/aaa.html');
+  var vmC = require('../../control/aaa/aaa.js');
+  vm.page = vmH;
+  vmC.params = this.params;
+});
+avalon.router.add("/bbb/:a/:b", function (a) {
+  var vmH = require('../../control/bbb/bbb.html');
+  var vmC = require('../../control/bbb/bbb.js');
+  vm.page = vmH;
+  vmC.params = this.params;
+});
+avalon.history.start({
+  root: "/mmRouter",
+  autoScroll: true
+});
+avalon.scan(document.body);
+setTimeout(function () {
+  vm.array.set(0, 444);
+}, 3000);

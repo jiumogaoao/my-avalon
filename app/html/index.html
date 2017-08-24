@@ -7,8 +7,9 @@
 </head>
 
 <body ms-controller="test">
-
-  <wbr ms-widget="{is:'ms-pager'}"/>
-
+  <wbr ms-widget="{is:'ms-pager',name:@name}"/>
+  <wbr ms-widget="{is:'ms-pager2',name:@name2}"/>
+  <wbr ms-widget="{is:'ms-pager3',name:@name3,c:@c}"/>
+  <div ms-html="@page"></div>
 </body>
 </html>

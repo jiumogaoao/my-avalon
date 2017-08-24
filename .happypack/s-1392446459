@@ -1,0 +1,6 @@
+var Module=avalon.component('ms-pager2', {
+    template: '<div>1{{@name}}</div>',
+    defaults: {name: '他'}
+});
+
+module.exports = Module;

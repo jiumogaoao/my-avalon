@@ -1,0 +1,12 @@
+let vm = avalon.define({
+    $id: "aaa",
+    name: "aaa",
+    name2:"某人2",
+    name3:"某人3",
+    page:'<div>1</div>',
+    array: [11, 22, 33],
+    c:function(){
+        vm.name="dddd"
+    }
+});
+module.exports = vm;

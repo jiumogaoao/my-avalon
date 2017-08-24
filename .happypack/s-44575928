@@ -1,0 +1,19 @@
+
+var img = require('../../source/img/avatar.jpg');
+require('../../compoment/ms-pager');
+require('../../compoment/ms-pager2');
+require('../../compoment/ms-pager3');
+var vm = avalon.define({
+  $id: "test",
+  name: "某人",
+  name2: "某人2",
+  name3: "某人3",
+  array: [11, 22, 33],
+  c: function c() {
+    vm.name = "dddd";
+  }
+});
+
+setTimeout(function () {
+  vm.array.set(0, 444);
+}, 3000);
